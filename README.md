@@ -1,5 +1,11 @@
-Web application.  
-Equivalent to Git system with options for adding repositories, branches, committees, mergers, and more.  
-The system supports collaboration between repositories on the same machine.  
-Server side: Java, Tomcat  
-Client side: JavaScript, HTML, CSS, Ajax, Jquery  
+### Getting Started
+
+###### Tomcat
+
+1. Install [Tomcat](https://tomcat.apache.org/) on your machine.
+2. Download the .war file and save it to ..\Tomcat\webapps folder.
+3. Download the sample-files directory.
+4. Connect to Tomcat (navigate to ..\tomcat-folder\bin, run startup.bat file)
+5. Browse to localhost:8080/magit.
+6. For upload files to magit system, use the files that you downloaded in step 3.
+6. Let's Started
