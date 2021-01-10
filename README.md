@@ -1,6 +1,17 @@
-## Getting Started
+### M.A.Git
+Git-like distributed version control system.
 
-#### Tomcat
+###### Main features
+* Adding repository
+* Adding new branches
+* Commit
+* Merge
+* Collaboration: pull, push, clone, fork
+* Pull request
+
+### Installation
+
+###### Tomcat
 
 1. Install [Tomcat](https://tomcat.apache.org/) on your machine.
 2. Download the .war file and save it to ..\Tomcat\webapps folder.
