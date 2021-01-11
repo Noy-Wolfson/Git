@@ -20,3 +20,14 @@ Git-like distributed version control system.
 5. Browse to localhost:8080/magit.
 6. For upload files to magit system, use the files that you downloaded in step 3.
 6. Let's Started
+
+### Built With
+
+* Java 8
+* Tomcat Servlets
+* JavaScript
+* jQuery
+* HTML5
+* CSS
+* Ajax
+* Bootstrap
