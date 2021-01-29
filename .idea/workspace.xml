@@ -25,8 +25,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a14c5375-d147-41c4-b6bf-d40cd56cf20d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/MagitWebApp/web/pages/signup/signup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagitWebApp/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MagitWebApp/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagitWebApp/web/pages/signup/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/MagitWebApp/web/pages/signup/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatLogicEngine/ChatLogicEngine.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ChatLogicEngine/ChatLogicEngine.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagitWebApp_war_exploded/WEB-INF/classes/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MagitWebApp_war_exploded/WEB-INF/classes/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagitWebApp_war_exploded/WEB-INF/classes/web/pages/signup/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MagitWebApp_war_exploded/WEB-INF/classes/web/pages/signup/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagitWebApp_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MagitWebApp_war_exploded/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagitWebApp_war_exploded/pages/signup/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MagitWebApp_war_exploded/pages/signup/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/magit/magit.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/magit/magit.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagitWebApp/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MagitWebApp/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagitWebApp/web/pages/signup/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MagitWebApp/web/pages/signup/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -416,7 +425,7 @@
       </method>
     </configuration>
     <configuration name="Magit Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Magit Tomcat" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/magit" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/magit/index.html" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="magit">
@@ -709,7 +718,7 @@
       <workItem from="1571678007651" duration="1690000" />
       <workItem from="1571688768563" duration="9126000" />
       <workItem from="1571771729244" duration="4981000" />
-      <workItem from="1611811556197" duration="338000" />
+      <workItem from="1611811556197" duration="6836000" />
     </task>
     <servers />
   </component>

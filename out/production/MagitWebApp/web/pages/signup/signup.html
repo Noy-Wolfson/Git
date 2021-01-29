@@ -5,21 +5,66 @@
         <title>Magit-Hub</title>
 
         <!-- Link the Bootstrap (from twitter) CSS framework in order to use its classes-->
-        <link rel="stylesheet" href="../../common/bootstrap.min.css">
-
+<!--        <link rel="stylesheet" href="../../common/bootstrap.min.css">-->
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="wc.css">
         <!-- Link jQuery JavaScript library in order to use the $ (jQuery) method-->
         <!-- <script src="common/jquery-2.0.3.min.js"></script>-->
         <!-- and\or any other scripts you might need to operate the JSP file behind the scene once it arrives to the client-->
     </head>
-    <body>
-        <div class="container">
-            <h1>Welcome to Magit-Hub!</h1>
-            <br/>
-            <h2>Please enter a unique user name:</h2>
-            <form method="GET" action="login">
-                <input type="text" name="username" class=""/>
-                <input type="submit" value="Login"/>
-            </form>
+<body>
+<div id="login">
+    <h1 class="text-center text-info pt-5">Welcome to Magit-Hub!</h1>
+    <div class="container">
+        <div id="login-row" class="row justify-content-center align-items-center">
+            <div id="login-column" class="col-md-6">
+                <div id="login-box" class="col-md-12">
+                    <form id="login-form" class="form" action="login" method="get">
+                        <h3 class="text-info">Login</h3>
+                        <div class="form-group">
+                            <label for="username" class="text-info">Please enter a unique user name:</label><br>
+                            <input type="text" name="username" id="username" placeholder="username" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" name="submit" class="btn btn-info btn-md" value="Login">
+                        </div>
+                        <div id="register-link" class="text-right"></div>
+                    </form>
+                </div>
+            </div>
         </div>
-    </body>
-</html>
+    </div>
+</div>
+</body>
+
+
+
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--    <head>-->
+<!--        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">-->
+<!--        <title>Magit-Hub</title>-->
+
+<!--        &lt;!&ndash; Link the Bootstrap (from twitter) CSS framework in order to use its classes&ndash;&gt;-->
+<!--        <link rel="stylesheet" href="../../common/bootstrap.min.css">-->
+
+<!--        &lt;!&ndash; Link jQuery JavaScript library in order to use the $ (jQuery) method&ndash;&gt;-->
+<!--        &lt;!&ndash; <script src="common/jquery-2.0.3.min.js"></script>&ndash;&gt;-->
+<!--        &lt;!&ndash; and\or any other scripts you might need to operate the JSP file behind the scene once it arrives to the client&ndash;&gt;-->
+<!--    </head>-->
+<!--    <body>-->
+<!--        <div class="container">-->
+<!--            <h1>Welcome to Magit-Hub!</h1>-->
+<!--            <br/>-->
+<!--            <h2>Please enter a unique user name:</h2>-->
+<!--            <form method="GET" action="login">-->
+<!--                <input type="text" name="username" class=""/>-->
+<!--                <input type="submit" value="Login"/>-->
+<!--            </form>-->
+<!--        </div>-->
+<!--    </body>-->
+<!--</html>-->
